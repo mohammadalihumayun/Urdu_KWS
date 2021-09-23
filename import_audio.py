@@ -3,7 +3,7 @@ import numpy as np
 def speakersets():
 	r1001, x1001 =scipy.io.wavfile.read('xx/s11111001.wav')
 	r1002, x1002= scipy.io.wavfile.read('xx/s11111002.wav')
-    #.... repeat for all files such that last 3 digits indicate ID of Urdu Keyword
+	#.... repeat for all files such that last 3 digits indicate ID of Urdu Keyword
 	r0248, x0248= scipy.io.wavfile.read('xx/s00000248.wav')
 	r0249, x0249= scipy.io.wavfile.read('xx/s00000249.wav')
 	r0250, x0250= scipy.io.wavfile.read('xx/s00000250.wav')
